@@ -1,0 +1,65 @@
+@import url('reset.css');
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+.wrapper {
+    padding: 0 15px;
+    text-align: center;
+}
+.wrapper>h2 {
+    width: 900px;
+    padding-bottom: 40px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+.text_1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.text_2 {
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 18px;
+}
+img {
+    margin: 0 auto;
+}
+.wrapper>.text_1 + .text_2 {
+    margin: 30px 0;
+}
+
+.info {
+    padding-top: 20px;
+    text-align: center;
+}
+.info_magnus, .info_fabricius {
+    border: 2px dashed violet;
+    width: 600px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.info> p + p {
+    margin-top: 30px;
+}
+.link_magnus, .link_fabricius {
+    color:blue;
+    font-weight: 700;
+    text-align: center;
+}
+
