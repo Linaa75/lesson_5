@@ -27,6 +27,7 @@ a {
     padding-bottom: 40px;
     font-style: italic;
     letter-spacing: 1.5px;
+    margin: 0 auto;
 }
 .text_1 {
     font-size: 20px;
@@ -36,9 +37,6 @@ a {
     font-style: oblique;
     font-weight: 600;
     font-size: 18px;
-}
-img {
-    margin: 0 auto;
 }
 .wrapper>.text_1 + .text_2 {
     margin: 30px 0;
